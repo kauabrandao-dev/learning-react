@@ -4,7 +4,7 @@ import "../css/style.css";
 export default function Home() {
   return (
     <>
-      <Header relativo="next"/>
+      <Header relativo="next" />
       <main>
         <a href="https://www.react.dev/" target="_blank" rel="external">
           <img src="../../public/react_logo.png" alt="Logo React" />

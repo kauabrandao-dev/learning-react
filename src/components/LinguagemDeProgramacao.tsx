@@ -7,7 +7,7 @@ interface Props {
   imagem: string;
 }
 
-export default function LinguagemDeProgramacao(props : Props) {
+export default function LinguagemDeProgramacao(props: Props) {
   return (
     <div className="linguagem-de-programacao">
       <h2>{props.nome}</h2>

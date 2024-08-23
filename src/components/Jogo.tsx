@@ -5,7 +5,7 @@ interface Props {
   nome: string;
 }
 
-export default function Jogo(props : Props) {
+export default function Jogo(props: Props) {
   return (
     <div className="jogo">
       <img src={props.img} alt="Imagem do Jogo" />

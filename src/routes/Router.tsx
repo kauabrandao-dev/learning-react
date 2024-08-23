@@ -8,10 +8,12 @@ export default function Router() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/linguagens-de-programacao" element={<LinguagensDeProgramacao />} />
+        <Route
+          path="/linguagens-de-programacao"
+          element={<LinguagensDeProgramacao />}
+        />
         <Route path="/lista-de-jogos" element={<ListaDeJogos />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
